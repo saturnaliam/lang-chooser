@@ -30,7 +30,7 @@ async function spinner(array: any[]) {
       if (index === Math.floor(array.length / 2)) {
         buffer += "\x1b[39m> ";
       } else {
-        buffer += "\x1b[38;5;249m";
+        buffer += "\x1b[38;5;240m";
       }
 
       buffer += element + "               ";
